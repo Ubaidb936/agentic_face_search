@@ -1,0 +1,48 @@
+# Python virtual environment
+env/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Backend: uploaded test files
+backend/app/storage_service/*.jpeg
+backend/app/storage_service/*.jpg
+backend/app/storage_service/*.png
+
+# Frontend: dependencies
+frontend/node_modules/
+
+# Frontend: Next.js build output
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Frontend: env files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Frontend: misc
+frontend/.vercel
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
