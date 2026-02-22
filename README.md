@@ -1,4 +1,3 @@
-# PhotoTalk
 
 A personal photo memory app that identifies people in your photos using face recognition and AI. Save photos of people you know with a short note, then later point the app at any photo and it will tell you who's in it.
 
